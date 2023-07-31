@@ -1,8 +1,8 @@
 {
-  "name": "tailwind-demo",
+  "name": "futuretech",
   "version": "1.0.0",
-  "description": "A repository to practice and reference tailwind designs",
-  "main": "index.js",
+  "description": "A repository to host the futuretech website for LUMS Summer School 2023",
+  "main": "index.html",
   "scripts": {
     "dev": "npx live-server",
     "watch": "npx tailwindcss -i ./styles.css -o ./output.css --watch",
