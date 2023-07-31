@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
@@ -434,7 +436,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -484,7 +486,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -534,93 +536,102 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.ml-\[5x\] {
-  margin-left: 5x;
-}
-
-.ml-\[5px\] {
-  margin-left: 5px;
-}
-
-.flex {
+.flex{
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[100px\] {
+.h-\[100px\]{
   height: 100px;
 }
 
-.w-screen {
-  width: 100vw;
+.h-\[50px\]{
+  height: 50px;
 }
 
-.w-1\/6 {
-  width: 16.666667%;
+.h-screen{
+  height: 100vh;
 }
 
-.w-2\/6 {
+.w-2\/6{
   width: 33.333333%;
 }
 
-.w-4\/6 {
+.w-4\/6{
   width: 66.666667%;
 }
 
-.w-full {
+.w-full{
   width: 100%;
 }
 
-.bg-\[\#\] {
-  background-color: #;
+.w-screen{
+  width: 100vw;
 }
 
-.bg-\[\#\#5c5962\] {
-  background-color: ##5c5962;
+.border-0{
+  border-width: 0px;
 }
 
-.bg-\[\#5c5962\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(92 89 98 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#\#f5f6fa\] {
-  background-color: ##f5f6fa;
-}
-
-.bg-\[\#f5f6fa\] {
+.bg-\[\#f5f6fa\]{
   --tw-bg-opacity: 1;
   background-color: rgb(245 246 250 / var(--tw-bg-opacity));
 }
 
-.pl-\[5x\] {
-  padding-left: 5x;
+.bg-transparent{
+  background-color: transparent;
 }
 
-.pl-\[5px\] {
-  padding-left: 5px;
+.pl-20{
+  padding-left: 5rem;
 }
 
-.pr-\[25px\] {
+.pl-\[10px\]{
+  padding-left: 10px;
+}
+
+.pl-\[35px\]{
+  padding-left: 35px;
+}
+
+.pr-\[25px\]{
   padding-right: 25px;
 }
 
-.pt-\[25px\] {
+.pt-7{
+  padding-top: 1.75rem;
+}
+
+.pt-\[25px\]{
   padding-top: 25px;
 }
 
-.text-right {
-  text-align: right;
+.text-left{
+  text-align: left;
 }
 
-.text-5xl {
+.text-center{
+  text-align: center;
+}
+
+.font-roboto{
+  font-family: Roboto, sans-serif;
+}
+
+.text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.leading-10{
+  line-height: 2.5rem;
+}
+
+.hover\:bg-slate-200:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
