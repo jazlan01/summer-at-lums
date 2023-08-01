@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="w-screen h-screen margin-0 flex-col lg:flex lg:flex-row">
-      <div class="w-screen lg:w-2/6 lg:h-screen text-center bg-[#f5f6fa]">
+      <div class="w-screen lg:w-3/12 lg:h-screen text-center bg-[#f5f6fa]">
         <button
           class="h-[80px] lg:h-[100px] w-full text-5xl bg-transparent border-0 margin-0 hover:bg-slate-200 font-roboto"
           id="redirect"
@@ -18,35 +18,35 @@
         <div
           class="leading-10 text-l lg:text-2xl pr-[25px] pt-1 lg:pt-[25px] text-left pl-[35px]"
         >
-          <ul class="flex lg:flex-col justify-center text-center">
+          <ul class="flex lg:flex-col justify-center text-left">
             <div
-              class="h-[40px] w-fit lg:h-[50px] hover:bg-slate-200 pl-[10px] pr-[10px]"
+              class="h-[40px] w-full lg:h-[50px] hover:bg-slate-200 pl-[10px] pr-[10px] pt-2"
             >
               <a href="./about.html">About</a>
             </div>
             <div
-              class="h-[40px] w-fit lg:h-[50px] hover:bg-slate-200 pl-[10px] pr-[10px]"
+              class="h-[40px] w-full lg:h-[50px] hover:bg-slate-200 pl-[10px] pr-[10px] pt-2"
             >
               <a href="./resources.html">Resources</a>
             </div>
             <div
-              class="h-[40px] w-fit lg:h-[50px] hover:bg-slate-200 pl-[10px] pr-[10px]"
+              class="h-[40px] w-full lg:h-[50px] hover:bg-slate-200 pl-[10px] pr-[10px] pt-2"
             >
               <a href="./schedule.html">Schedule</a>
             </div>
             <div
-              class="h-[40px] w-fit lg:h-[50px] hover:bg-slate-200 pl-[10px] pr-[10px]"
+              class="h-[40px] w-full lg:h-[50px] hover:bg-slate-200 pl-[10px] pr-[10px] pt-2"
             >
               <a href="./staff.html">Staff</a>
             </div>
           </ul>
         </div>
       </div>
-      <div class="w-screen lg:w-4/6 lg:pl-20 pt-7 px-4 overflow-scroll">
+      <div class="w-screen lg:w-9/12 lg:pl-20 pt-7 px-4 overflow-scroll">
         <div class="w-full flex justify-between">
           <span
             class="text-3xl lg:text-5xl font-roboto align-text-bottom h-[65px] inline-block pt-2"
-            >About this workshop</span
+            >Schedule</span
           >
           <img
             src="../assets/640px-Lahore_University_of_Management_Sciences_Logo.svg.png"
@@ -56,25 +56,85 @@
         </div>
         <div class="flex w-full mt-12 lg:mt-20 pr-8">
           <div class="w-screen text-md lg:w-1/2 lg:text-xl">
-            <div class="lg:w-5/6 w-full pt-4">
-              Welcome to our 4-Day summer course on the Internet Architecture at
-              LUMS.
-            </div>
-            <div class="lg:w-5/6 lg:pt-12 w-full pt-4">
-              We are thrilled to welcome you to our exciting 4-day summer course
-              centered around Internet Architecture. If you've ever wondered
-              about the magic that connects us all online and how the digital
-              world functions, this course is tailor-made for curious minds like
-              yours!
-            </div>
-            <div class="lg:w-5/6 lg:pt-12 w-full pt-4">
-              Throughout these four days, students will learn about one of the
-              most impactful innovations by humankind—Internet—which has
-              transformed how we do business, connect with others, and learn.
-              Students will learn how the Internet is structured, and how data
-              is transmitted across the network. They will also learn about
-              Internet security, privacy, and ethical issues related to Internet
-              use.
+            <div class="lg:w-5/6 w-full pt-4 flex flex-col">
+              <div
+                class="w-full h-fit border-violet-800 border-4 rounded-3xl pt-4 pl-4 pb-4 mb-4 pr-4"
+              >
+                <h1 class="text-3xl pb-1">Session 1</h1>
+                <p class="text-xl">
+                  Timings:
+                  <span class="text-blue-700">10:00 AM - 11:15 AM</span>
+                </p>
+                <ul class="text-sm list-disc pl-6">
+                  <li>Introductions</li>
+                  <li>The End to End Journey of a Packet</li>
+                  <li>History of the Internet</li>
+                  <li>Information Flow - Encoding Information</li>
+                  <li>Where do packets go - Routing Principles</li>
+                </ul>
+                <span class="text-sm text-gray-400"
+                  >There will be various class activities, so make sure you
+                  don't miss any of them</span
+                >
+              </div>
+
+              <div
+                class="w-full h-fit border-emerald-600 border-4 rounded-3xl pt-4 pl-4 pb-4 mb-4 pr-4"
+              >
+                <h1 class="text-3xl pb-1">Break</h1>
+                <p class="text-xl">
+                  Duration:
+                  <span class="text-blue-700">15 minutes</span>
+                </p>
+              </div>
+
+              <div
+                class="w-full h-fit border-violet-800 border-4 rounded-3xl pt-4 pl-4 pb-4 mb-4 pr-4"
+              >
+                <h1 class="text-3xl pb-1">Session 2</h1>
+                <p class="text-xl">
+                  Timings:
+                  <span class="text-blue-700">11:30 AM - 12:45 PM</span>
+                </p>
+                <ul class="text-sm list-disc pl-6">
+                  <li>Are avian carriers better? - Sending data reliably</li>
+                  <li>These roads are too small - Congestion Control</li>
+                  <li>What is your name? - Domain Name Service (DNS)</li>
+                </ul>
+                <span class="text-sm text-gray-400"
+                  >There will be various class activities, so make sure you
+                  don't miss any of them</span
+                >
+              </div>
+              <div
+                class="w-full h-fit border-emerald-600 border-4 rounded-3xl pt-4 pl-4 pb-4 mb-4 pr-4"
+              >
+                <h1 class="text-3xl pb-1">Break</h1>
+                <p class="text-xl">
+                  Duration:
+                  <span class="text-blue-700">60 minutes</span>
+                </p>
+              </div>
+              <div
+                class="w-full h-fit border-violet-800 border-4 rounded-3xl pt-4 pl-4 pb-4 mb-4 pr-4"
+              >
+                <h1 class="text-3xl pb-1">Session 3</h1>
+                <p class="text-xl">
+                  Timings:
+                  <span class="text-blue-700">1:45 PM - 3:15 PM</span>
+                </p>
+                <ul class="text-sm list-disc pl-6">
+                  <li>Network Security Challenges</li>
+                  <li>That doesn't make sense - Encryption and Decryption</li>
+                  <li>Online Privacy and Data Protection</li>
+                  <li>Challenges for the Internet</li>
+                  <li>TA Interaction Session</li>
+                </ul>
+                <span class="text-sm text-gray-400"
+                  >There will be various class activities, so make sure you
+                  don't miss any of them</span
+                >
+              </div>
             </div>
           </div>
           <div class="w-0 lg:visible lg:w-1/2 lg:pt-8 lg:pr-4 lg:pl-4">
