@@ -1,38 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FutureTech@LUMS</title>
-  <link href="./output.css" rel="stylesheet" >
-  <link href='https://fonts.googleapis.com/css?family=Roboto&display=swap' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FutureTech@LUMS</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
 
-</head>
-<body>
-  <div class="w-screen h-screen margin-0 flex">
-    <div class="w-2/6 text-center bg-[#f5f6fa]">
-      <button class="h-[100px] w-full text-5xl bg-transparent border-0 margin-0 hover:bg-slate-200 font-roboto">FutureTech</button>
-      <div class="leading-10 text-xl pr-[25px] pt-[25px] text-left pl-[35px]">
-        <ul>
-          <div class="h-[50px] hover:bg-slate-200 pl-[10px]" ><a href="./src/about.html">About</a></div>
-          <div class="h-[50px] hover:bg-slate-200 pl-[10px]" ><a href="./src/calendar.html">Calendar</a></div>
-          <div class="h-[50px] hover:bg-slate-200 pl-[10px]" ><a href="./src/schedule.html">Schedule</a></div>
+    <div class="w-screen h-screen margin-0 flex">
+      <div class="w-2/6 text-center bg-[#f5f6fa]">
+        <button
+          class="h-[100px] w-full text-5xl bg-transparent border-0 margin-0 hover:bg-slate-200 font-roboto"
+          type="button"
+          value="Redirect"
+          id="redirect"
+        >
+          FutureTech
+        </button>
+        <div class="leading-10 text-xl pr-[25px] pt-[25px] text-left pl-[35px]">
+          <ul>
+            <div class="h-[50px] hover:bg-slate-200 pl-[10px]">
+              <a href="./src/about.html">About</a>
+            </div>
+            <div class="h-[50px] hover:bg-slate-200 pl-[10px]">
+              <a href="./src/resources.html">Resources</a>
+            </div>
+            <div class="h-[50px] hover:bg-slate-200 pl-[10px]">
+              <a href="./src/schedule.html">Schedule</a>
+            </div>
 
-          <div class="h-[50px] hover:bg-slate-200 pl-[10px]" ><a href="./src/staff.html">Staff</a></div>
-        </ul>
+            <div class="h-[50px] hover:bg-slate-200 pl-[10px]">
+              <a href="./src/staff.html">Staff</a>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="w-4/6 pl-20 pt-7 overflow-scroll sm:pl-10">
+        <div class="w-full flex justify-between align-middle">
+          <div class="text-5xl font-roboto">Welcome!</div>
+          <img
+            src="./assets/640px-Lahore_University_of_Management_Sciences_Logo.svg.png"
+            alt="LUMS Logo"
+            class="w-[80px] h-auto mr-10"
+          />
+        </div>
+        <div class="flex w-full mt-20 pr-8">
+          <div class="w-1/2 lg:text-xl sm:text-sm">
+            <div class="w-5/6 sm:w-full sm:pt-4">
+              We are thrilled to welcome you to our exciting 4-day summer course
+              centered around Internet Architecture. If you've ever wondered
+              about the magic that connects us all online and how the digital
+              world functions, this course is tailor-made for curious minds like
+              yours!
+            </div>
+            <div class="w-5/6 pt-12 sm:w-full sm:pt-4">
+              Throughout these four days, students will learn about one of the
+              most impactful innovations by humankind—Internet—which has
+              transformed how we do business, connect with others, and learn.
+              Students will learn how the Internet is structured, and how data
+              is transmitted across the network. They will also learn about
+              Internet security, privacy, and ethical issues related to Internet
+              use.
+            </div>
+            <div class="w-5/6 pt-12 sm:w-full sm:pt-4">
+              We hope you are enjoying your classes. We are here to help you
+              with any problems you might be facing. Please feel free to contact
+              us at any time.
+            </div>
+            <div class="w-5/6 pt-12 sm:w-full sm:pt-4">
+              We have added resources to the website to help you with your
+              classes. Please check them out by clicking the links on the left.
+            </div>
+          </div>
+          <div class="w-1/2 pt-8 pr-4 pl-4">
+            <img
+              src="./assets/picture.jpg"
+              alt="An image showing an office space lit with RGB"
+              class="h-5/6 w-auto max-h-[480px]"
+            />
+          </div>
+        </div>
       </div>
     </div>
-    <div class="w-4/6 pl-20 pt-7 overflow-scroll">
-      <div class="text-5xl font-roboto">
-        Welcome!
-      </div>
-      <div class="w-5/6 pt-24">
-        We hope you are enjoying your classes. We are here to help you with any problems you might be facing. Please feel free to contact us at any time.
-      </div>
-      <div>
-        We have added resources to the website to help you with your classes. Please check them out by clicking the links on the left.
-      </div>
-    </div>
-  </div>
-</body>
+    <script>
+      document.getElementById("redirect").onclick = function () {
+        location.href = "./index.html";
+      };
+    </script>
+  </body>
 </html>

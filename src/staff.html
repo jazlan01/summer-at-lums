@@ -1,12 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Staff</title>
-    <link rel="stylesheet" href="../output.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body>
+    <div class="w-screen h-screen margin-0 flex">
+      <div class="w-2/6 text-center bg-[#f5f6fa]">
+        <button
+          class="h-[100px] w-full text-5xl bg-transparent border-0 margin-0 hover:bg-slate-200 font-roboto"
+          id="redirect"
+        >
+          FutureTech
+        </button>
+        <div class="leading-10 text-xl pr-[25px] pt-[25px] text-left pl-[35px]">
+          <ul>
+            <div class="h-[50px] hover:bg-slate-200 pl-[10px]">
+              <a href="./about.html">About</a>
+            </div>
+            <div class="h-[50px] hover:bg-slate-200 pl-[10px]">
+              <a href="./resources.html">Resources</a>
+            </div>
+            <div class="h-[50px] hover:bg-slate-200 pl-[10px]">
+              <a href="./schedule.html">Schedule</a>
+            </div>
+
+            <div class="h-[50px] hover:bg-slate-200 pl-[10px]">
+              <a href="./staff.html">Staff</a>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="w-4/6 pl-20 pt-7 overflow-scroll">
+        <div class="w-full flex justify-between align-middle">
+          <div class="text-5xl font-roboto">Staff</div>
+          <img
+            src="../assets/640px-Lahore_University_of_Management_Sciences_Logo.svg.png"
+            alt="LUMS Logo"
+            class="w-[80px] h-auto mr-10"
+          />
+        </div>
+      </div>
+    </div>
+    <script>
+        document.getElementById("redirect").addEventListener("click", ()=>{
+            window.location = '../index.html';
+        }) 
+      </script>
+  </body>
 </html>
