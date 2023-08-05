@@ -1,6 +1,6 @@
 # FutureTech Website for LUMS Summer School 2023
 
-A repository for the website of the FutureTech Summer School at LUMS.
+A repository for the website of the FutureTech Summer School at LUMS. This was built using TailwindCSS and HTML. The repository is forked from a template repository created by me for making static webpages.
 
 ## Note
 
